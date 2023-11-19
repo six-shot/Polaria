@@ -18,8 +18,8 @@ function WhatWeDo() {
           will be key to empower the transition to a truly sustainable energy
           future.
         </p>
-        <button className=" mt-10 text-xs py-3.5 px-10 silka font-medium text-white bg-[#000] rounded-[50px]">
-          What We DO
+        <button className=" mt-10 text-[13px] py-3.5 px-10 silka font-medium text-white bg-[#000] rounded-[50px]">
+          What We Do
         </button>
         <div className="w-[100%] sm:h-full h-[40vh] rounded-3xl pt-24">
           <Image

@@ -22,7 +22,7 @@ function Navbar() {
               >
                 <div className="silka uppercase">Logo</div>
                 <nav>
-                  <ul className="sm:flex hidden text-xs text-[#2F2F2F] silka gap-12  font-semibold">
+                  <ul className="sm:flex hidden text-[13px] text-[#2F2F2F] silka gap-12  font-semibold">
                     <li>About</li>
                     <li>why polarium</li>
                     <li>Customer Segment</li>
@@ -32,7 +32,7 @@ function Navbar() {
                   </ul>
                 </nav>
                 <div className="flex items-center xl:gap-14 gap-5">
-                  <button className="sm:flex hidden text-xs py-3.5 px-10 silka font-medium text-white bg-[#000] rounded-[50px]">
+                  <button className="sm:flex hidden text-[13px] py-3.5 px-10 silka font-medium text-white bg-[#000] rounded-[50px]">
                     Get a Quote
                   </button>
                   <IconContext.Provider value={{ size: "25px" }}>
@@ -58,7 +58,7 @@ function Navbar() {
                   />
                 </div>
                 <div className="flex items-center gap-3 sm:gap-14">
-                  <button className="text-xs py-3.5 px-8 silka font-medium text-white bg-[#000] rounded-[50px]">
+                  <button className="text-[13px] py-3.5 px-8 silka font-medium text-white bg-[#000] rounded-[50px]">
                     Search
                   </button>
                   <IconContext.Provider value={{ size: "25px" }}>
