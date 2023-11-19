@@ -1,5 +1,9 @@
 import React from "react";
-
+import Image from "next/image";
+import reserve from "@/public/reserve.webp"
+import cost from "@/public/cost.webp"
+import revenue from "@/public/revenue.webp"
+import energy from "@/public/energy.webp"
 function Offerings() {
   return (
     <div>
@@ -20,17 +24,21 @@ function Offerings() {
             Our Offering
           </button>
         </div>
-        <div className="flex flex-1 flex-col gap-2 xl:px-20 ">
-          <div className="border-[1px] border-[#cccccc] w-full h-[80px] flex items-center rounded-[16px] px-14">
+        <div className="flex flex-1 flex-col gap-2 xl:pl-48">
+          <div className="border-[1px] border-[#cccccc] hover:bg-[#E6E6E6] w-full h-[80px] flex items-center rounded-[16px] px-14   gap-3">
+            <Image src={reserve} />
             <h5 className="silka font-semibold">Secure reserve power</h5>
           </div>
-          <div className="border-[1px] border-[#cccccc] w-full h-[80px] flex items-center rounded-[16px] px-14">
+          <div className="border-[1px] border-[#cccccc] w-full hover:bg-[#E6E6E6] h-[80px] flex items-center rounded-[16px] px-14 gap-3">
+          <Image src={cost} />
             <h5 className="silka font-semibold">Secure reserve power</h5>
           </div>
-          <div className="border-[1px] border-[#cccccc] w-full h-[80px] flex items-center rounded-[16px] px-14">
+          <div className="border-[1px] border-[#cccccc] w-full hover:bg-[#E6E6E6] h-[80px] flex items-center rounded-[16px] px-14 gap-3">
+          <Image src={revenue} />
             <h5 className="silka font-semibold">Secure reserve power</h5>
           </div>
-          <div className="border-[1px] border-[#cccccc] w-full h-[80px] flex items-center rounded-[16px] px-14">
+          <div className="border-[1px] border-[#cccccc] w-full hover:bg-[#E6E6E6] h-[80px] flex items-center rounded-[16px] px-14 gap-3">
+          <Image src={energy} />
             <h5 className="silka font-semibold">Secure reserve power</h5>
           </div>
         </div>
