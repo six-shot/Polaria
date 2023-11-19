@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { FiSearch } from "react-icons/fi";
 import { AiOutlineClose } from "react-icons/ai";
 import { IconContext } from "react-icons/lib";
+import { TbMenu } from "react-icons/tb";
 function Navbar() {
   const [toggle, setToggle] = useState(true);
   const handleToggle = () => {
@@ -30,12 +31,15 @@ function Navbar() {
                     <li>Investors Relations</li>
                   </ul>
                 </nav>
-                <div className="flex items-center gap-14">
+                <div className="flex items-center xl:gap-14 gap-5">
                   <button className="sm:flex hidden text-xs py-3.5 px-10 silka font-medium text-white bg-[#000] rounded-[50px]">
                     Get a Quote
                   </button>
                   <IconContext.Provider value={{ size: "25px" }}>
                     <FiSearch onClick={handleToggle} />
+                  </IconContext.Provider>
+                  <IconContext.Provider value={{ size: "25px" }}>
+                  <TbMenu  className="sm:hidden flex"/>
                   </IconContext.Provider>
                 </div>
               </div>
