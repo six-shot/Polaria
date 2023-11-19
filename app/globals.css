@@ -80,3 +80,12 @@ body {
     transform: translateY(0);
   }
 }
+.line:before {
+  content: "";
+  position: absolute;
+  bottom: 0; /* Adjust the vertical position of the line */
+  left: 50%;
+  width: 80px;
+  height: 1px; /* Adjust the thickness of the line */
+  background-color: #CCCCCC; /* Adjust the color of the line */
+}
