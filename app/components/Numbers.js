@@ -6,7 +6,9 @@ function Numbers() {
   return (
     <div>
       <div className='flex justify-center items-center px-6 '>
-        <Image className='rounded-3xl' src={pol}/>
+       <div className='w-[100%] sm:h-full h-[40vh] rounded-3xl'>
+       <Image className='rounded-3xl w-full h-full sm:object-none object-cover' src={pol}/>
+       </div>
       </div>
     </div>
   )
