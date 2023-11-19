@@ -3,7 +3,7 @@ import React from "react";
 function WhatWeDo() {
   return (
     <div>
-      <div className="w-full flex flex-col justify-center items-center text-center pb-24 px-4 ">
+      <div className="w-full flex flex-col justify-center items-center text-center pb-24 px-6 ">
         <h3 className="sm:text-[40px] text-[30px] sm:leading-[45px] leading-[40px] font-bold silka">
           Safe, Smart and Sustainable <br /> Energy Storage
         </h3>

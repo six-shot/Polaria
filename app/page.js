@@ -1,5 +1,6 @@
 
 import Hero from './components/Hero'
+import Numbers from './components/Numbers'
 import WhatWeDo from './components/WhatWeDo'
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
     <main className='' >
       <Hero/>
       <WhatWeDo/>
+      <Numbers/>
 
     </main>
   )
