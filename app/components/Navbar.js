@@ -12,7 +12,7 @@ function Navbar() {
   return (
     <div className="fixed top-[5%]">
       <div className="flex justify-center items-center">
-        <div className="bg-white relative h-[63px] w-[95vw]  rounded-[50px] xl:px-10 px-5 flex items-center text-black ">
+        <div className="bg-white relative h-[63px] w-[95vw]  rounded-[50px] xl:px-10 px-6 flex items-center text-black ">
           {toggle ? (
             
               <div
