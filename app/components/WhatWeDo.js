@@ -9,7 +9,7 @@ function WhatWeDo() {
         <h3 className="sm:text-[40px] text-[30px] sm:leading-[45px] leading-[40px] font-bold silka">
           Safe, Smart and Sustainable <br /> Energy Storage
         </h3>
-        <p className="text-black silka xl:w-[700px]  font-bold text-center mt-10">
+        <p className="text-black silka xl:w-[700px]  font-medium text-center mt-10">
           Polarium is a leading energy storage developer. We make energy storage
           and optimization solutions built on lithium-ion battery technology for
           businesses within telecom, commercial, industrial and residential

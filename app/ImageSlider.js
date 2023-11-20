@@ -42,19 +42,18 @@ function ImageSlider() {
       <div className="flex justify-between xl:flex-row flex-col">
         {imgs.map((data, i) => (
           <div className="xl:w-[200px] w-full h-[100px] relative mt-5" key={i}>
-            <div className="absolute  inset-0 bg-black opacity-[35%]  transition-opacity duration-300 rounded-[8px]"></div>
+            <div className="absolute h-full  inset-0 bg-black opacity-[35%]  transition-opacity duration-300 rounded-[8px]"></div>
 
             <Image
               className={
                 wordData.id === i
-                  ? "cursor-pointer "
+                  ? "cursor-pointer w-[200px] h-[100px]"
                   : "opacity-75 hover:opacity-100  "
               }
               src={data.value}
               onMouseEnter={() => handleHover(i)}
-              layout="fixed"
-              width={200}
-              height={100}
+              
+             
             />
           </div>
         ))}

@@ -26,7 +26,7 @@ function Hero() {
           <h1 className="silka font-bold xl:text-[56px] text-[40px] text-center leading-[46px] z-50">
             Unlock Endless Energy
           </h1>
-          <p className="text-white silka xl:w-[700px]  font-bold text-center mt-10 z-50">
+          <p className="text-white silka xl:w-[700px]  font-medium text-center mt-10 z-50">
             Energy storage is the missing link in the sustainable energy system.
             Our mission is to unlock endless energy.
           </p>
