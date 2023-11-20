@@ -7,7 +7,7 @@ function Hero() {
   return (
     <div className="h-screen ">
       <div className="h-[90vh] relative w-full  bg-black text-white  ">
-      <div className="absolute top-0 left-0 w-full h-full overflow-hidden bg-black">
+        <div className="absolute top-0 left-0 w-full h-full overflow-hidden bg-black">
           <video
             className="min-h-full min-w-full absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%] object-cover"
             autoPlay
@@ -15,7 +15,6 @@ function Hero() {
             muted
           >
             <source src="bg.mp4" type="video/mp4"></source>
-
           </video>
           <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
         </div>
@@ -31,7 +30,6 @@ function Hero() {
             Our mission is to unlock endless energy.
           </p>
         </div>
-        
       </div>
     </div>
   );

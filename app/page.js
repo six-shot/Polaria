@@ -1,6 +1,7 @@
 import ImageSlider from "./ImageSlider";
 import Focus from "./components/Focus";
 import Hero from "./components/Hero";
+import JoinUs from "./components/JoinUs";
 import Numbers from "./components/Numbers";
 import Offerings from "./components/Offerings";
 import Range from "./components/Range";
@@ -17,6 +18,7 @@ export default function Home() {
       <Solutions />
       <Range />
       <Focus/>
+      <JoinUs/>
     </main>
   );
 }
