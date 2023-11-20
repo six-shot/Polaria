@@ -15,7 +15,9 @@ function Hero() {
             muted
           >
             <source src="bg.mp4" type="video/mp4"></source>
+
           </video>
+          <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
         </div>
         <div className="">
           <Nav />
