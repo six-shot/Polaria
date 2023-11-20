@@ -13,7 +13,7 @@ function Nav() {
   return (
     <div className="fixed top-[5%] w-full z-50">
       <div className="max-w-[1440px] mx-auto ">
-      <div className=" px-[3%]">
+      <div className=" px-[3%] 2xl:px-0">
         <div className="w-full h-[63px] bg-white rounded-[50px] flex justify-between items-center  text-black xl:px-10 px-6">
           {toggle ? (
             <div
