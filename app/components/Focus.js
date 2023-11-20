@@ -10,24 +10,24 @@ function Focus() {
       <div className='flex xl:flex-row flex-col gap-7'>
         <div className='flex flex-col items-center'>
             <Image src={focus1} className='rounded-[8px]'/>
-            <h4 className='silka font-bold text-[22px]'>Pola commits to set science-based emission reduction target</h4>
-            <p className='silka text-[18px]'>Polarium commits to set near- and long-term company-wide emission reductions in line with science-based net-zero with the SBTi.</p>
+            <h4 className='silka font-bold text-[22px] text-center my-7'>Pola commits to set science-based emission reduction target</h4>
+            <p className='silka text-[18px] text-center'>Polarium commits to set near- and long-term company-wide emission reductions in line with science-based net-zero with the SBTi.</p>
             <button className=" mt-10 text-[13px] py-3.5 px-10 silka font-medium text-white bg-[#000] rounded-[50px]">
           Read more
         </button>
         </div>
-        <div className='flex flex-col items-center'>
+        <div className='flex flex-col items-center '>
             <Image src={focus2} className='rounded-[8px] '/>
-            <h4 className='silka font-bold text-[22px]'>Pola commits to set science-based emission reduction target</h4>
-            <p className='silka text-[18px]'>Polarium commits to set near- and long-term company-wide emission reductions in line with science-based net-zero with the SBTi.</p>
+            <h4 className='silka font-bold text-[22px] text-center my-7'>Pola commits to set science-based emission reduction target</h4>
+            <p className='silka text-[18px] text-center'>Polarium commits to set near- and long-term company-wide emission reductions in line with science-based net-zero with the SBTi.</p>
             <button className=" mt-10 text-[13px] py-3.5 px-10 silka font-medium text-white bg-[#000] rounded-[50px]">
           Read more
         </button>
         </div>
         <div className='flex flex-col items-center'>
             <Image src={focus3} className='rounded-[8px]'/>
-            <h4 className='silka font-bold text-[22px]'>Pola commits to set science-based emission reduction target</h4>
-            <p className='silka text-[18px]'>Polarium commits to set near- and long-term company-wide emission reductions in line with science-based net-zero with the SBTi.</p>
+            <h4 className='silka font-bold text-[22px] text-center my-7'>Pola commits to set science-based emission reduction target</h4>
+            <p className='silka text-[18px] text-center'>Polarium commits to set near- and long-term company-wide emission reductions in line with science-based net-zero with the SBTi.</p>
             <button className=" mt-10 text-[13px] py-3.5 px-10 silka font-medium text-white bg-[#000] rounded-[50px]">
           Read more
         </button>
