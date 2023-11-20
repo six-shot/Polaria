@@ -3,7 +3,7 @@ import Image from "next/image";
 import pol1 from "@/public/pol1.webp"
 function Numbers() {
   return (
-    <div>
+    <div className="max-w-[1440px] mx-auto ">
       <h3 className="sm:text-[40px] text-[30px] sm:leading-[45px] leading-[40px] text-center mb-20 font-bold silka mt-40">
         Polarium in Numbers
       </h3>

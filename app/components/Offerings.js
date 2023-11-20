@@ -6,7 +6,7 @@ import revenue from "@/public/revenue.webp"
 import energy from "@/public/energy.webp"
 function Offerings() {
   return (
-    <div>
+    <div className="max-w-[1440px] mx-auto ">
       <div className="flex xl:flex-row flex-col justify-between gap-20 xl:items-center xl:px-10 px-6">
         <div className="flex flex-1 flex-col items-start">
           <h4 className="silka sm:text-[32px] text-[20px] font-bold xl:leading-[36px] leading-[28px]">
