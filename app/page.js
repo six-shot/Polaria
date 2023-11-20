@@ -1,5 +1,7 @@
 
+import ImageSlider from './ImageSlider'
 import Hero from './components/Hero'
+import Nav from './components/Nav'
 import Numbers from './components/Numbers'
 import Offerings from './components/Offerings'
 import Solutions from './components/Solutions'
@@ -13,7 +15,8 @@ export default function Home() {
       <Numbers/>
       <Offerings/>
       <Solutions/>
-
+      <ImageSlider/>
+     
     </main>
   )
 }
