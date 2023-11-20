@@ -9,7 +9,7 @@ function Range() {
   return (
     <div>
         <div className="max-w-[1440px] mx-auto py-28 ">
-      <div className="grid xl:grid-cols-6 grid-col-1 gap-20 xl:items-center xl:px-10 2xl:px-0 px-6">
+      <div className="grid xl:grid-cols-6 grid-cols-1 gap-20 xl:items-center xl:px-10 2xl:px-0 px-6">
         <div className="col-span-2 ">
           <h4 className="silka sm:text-[32px] text-[20px] font-bold xl:leading-[36px] leading-[28px]">
           Our Product Range
